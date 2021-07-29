@@ -1,6 +1,6 @@
 .main {
     border: solid 2px red;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
     
     
 }
@@ -64,16 +64,24 @@
 
 
 .section2 {
-    border: solid 2px blue;
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: repet(3 1fr);
+    border: solid 2px blue;   
     margin-top: 30px;
+    margin-bottom: 60px;
     background-color: #eff9ff;
     text-align: center;
     align-items: center;
     line-height: 30px;
+}
 
+.section2__container {
+    display: grid;
+    grid-template-columns: 1;
+
+    @media (min-width: 768px) { 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+                
+    }
 }
 
 .section2__title {
@@ -82,19 +90,46 @@
     margin-bottom: 45px;
     font-size: 24px;
     font-weight: bold;
+
+    @media (min-width: 768px) { 
+        font-size: 26px;
+        line-height: 45px;
+    }
+        
+       
 }
 
 .section2__article {
     border: solid 2px green;
     padding: 0px 70px 40px;
     font-size: 18px;
+
+    @media (min-width: 768px) { 
+        padding: 0px 40px;
+        margin-bottom: 50px;
+     }
+
 }
 
-.section2__article--title {}
+.section2__article--title {
+
+    @media (min-width: 768px) { 
+        font-size: 24px;
+        
+     }
+}
 
 .seccion2_article--parrafo {
     padding: 5px 70px;
     line-height: 1.60;
+
+    @media (min-width: 768px) { 
+        font-size: 20px;
+        
+     }
+
+
+    
 }
 .section2__button {
     background-color: #f26002;
@@ -103,13 +138,20 @@
     font-weight: 500;
     line-height: 25px;
     text-decoration: none;
-  
     border-radius: 25px;
     padding: 8px 25px;
+    
     transition: color 0.5s linear, background-color 0.5s linear;
 
     &:hover{
         color:black;   
         background-color: #8ccbea;    
     }
+    @media (min-width: 768px) { 
+        padding: 8px 40px;
+        
+        
+     }
+
+    
 }

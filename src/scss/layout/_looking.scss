@@ -1,0 +1,49 @@
+.main {
+    border: solid 2px red;
+    padding: 15px;
+}
+.secction1 {
+    background-color: yellow;
+    border: solid 2px blue;
+}
+.section1__parrafoinicio {
+    color:#8ccbea;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight:500;
+    
+}
+
+.section1__title {
+    width: 290px;
+    font-size: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+
+
+    @media (min-width: 768px) { 
+        width: 500px;
+        
+    }
+}
+.section1__parrafo {
+    font-size: 18px;
+    color:#4a4a4a;
+    line-height: 1.7;
+}
+.section1__button {
+    color: #f26002;
+    width: 75px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2;
+    text-decoration: none;
+    border: solid 2px #f26002;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+
+
+}
+    

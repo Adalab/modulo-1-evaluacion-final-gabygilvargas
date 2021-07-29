@@ -26,6 +26,7 @@
   top: 0;
   left: 0;
 }
+/**************************************************/
 
 .header__herocontenedor {
   background-image: url('../images/cover.jpg');
@@ -34,6 +35,50 @@
   background-size: cover;
   background-image: no-repeat;
   background-position: center;
- 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__herocontenedor--titles {
+  width: 290px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  justify-content:center;
+
+  @media (min-width: 768px) {
+    font-size: 42px;
+    width: 690px;
+    height: 350px;
+    padding-top: 100px;
+    
+  }
+  
+  
+  
+}
+.header__title {
+  font-size: 42px;
+   text-transform: uppercase;
+  
+  @media (min-width: 768px) {
+    font-size: 80px;
+        
+  }
+  
+
+}
+
+.header_subtitle {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+        
+  }
 }
 

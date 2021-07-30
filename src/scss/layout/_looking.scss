@@ -1,7 +1,6 @@
 .main {
     border: solid 2px red;
-    padding: 15px 15px 0 15px;
-    
+        
     
 }
 .secction1 {
@@ -155,3 +154,24 @@
 
     
 }
+
+.main__button-contenedor{
+    border: solid 2px red;
+    margin-top: 100px;
+    width: 60px;
+    height: 60px;
+    
+  
+  }
+  
+  .main__button{
+    border: solid 2px greenyellow;
+    background-color: white;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    padding: 25px;
+    font-size: 20px;
+      
+  
+  }

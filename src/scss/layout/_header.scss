@@ -47,6 +47,9 @@
   color: white;
   text-align: center;
   justify-content:center;
+  padding-bottom: 10px;
+  
+
 
   @media (min-width: 768px) {
     font-size: 42px;
@@ -54,11 +57,9 @@
     height: 350px;
     padding-top: 100px;
     
-  }
-  
-  
-  
+  }  
 }
+
 .header__title {
   font-size: 42px;
    text-transform: uppercase;
@@ -82,31 +83,20 @@
   }
 }
 
-.header__hero--button-contenedor{
-  border: solid 2px red;
-  margin-top: 100px;
-  width: 60px;
-  height: 60px;
-  
-
-
-
-}
 
 .header__hero--button{
-  border: solid 2px greenyellow;
   background-color: white;
   border-radius: 50px;
   width: 45px;
   height: 45px;
-  padding: 25px;
+  padding: 20px;
   font-size: 20px;
   display: flex;
-  text-align: center;
-  align-items: center;
   justify-content: center;
-
+  align-items: center;
+  line-height: 45px;
+  margin-top: 90px;
   
-
+    
 }
 

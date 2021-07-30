@@ -12,6 +12,29 @@
   padding-bottom: 45px;
   line-height: 2;
   
+    @media (min-width: 768px) { 
+
+      flex-direction: row;
+      justify-content: space-around;
+      text-align: start;
+      align-items: flex-start;
+      padding-top: 45px;
+      
+    }
+
+    @media (min-width: 1200px) { 
+      flex-direction: row;     
+      text-align: start;
+      padding-top: 45px;
+      justify-content: center;
+
+      
+
+      
+      
+      
+      
+    }
   
 }
 
@@ -20,6 +43,12 @@
   text-transform: uppercase;
   font-size: 16px;
   padding-bottom: 30px;
+  
+  @media (min-width: 1200px) { 
+        margin-left: 30px;  
+    
+  }
+
 }
 
 .footerlink__navegacion{ /*NAVEGACION*/
@@ -44,6 +73,10 @@
 .footerredes { 
   border: solid 2px yellow;
   font-size: 16px;
+    @media (min-width: 1200px) { 
+      margin-left: 50px;  
+      
+    }
 }
 
 
@@ -55,19 +88,28 @@
 
 .footerredes__container--lista { /*listado  redes*/
   list-style: none;
-  
 
 }
 
 .footerredes__container--item { /*cada enlace redes*/
   color: white;
 
-
 }
 
 .footer__copy {
   border: solid 2px orange;
   text-align: center;
+   
+    @media (min-width: 768px) {
+      text-align: start;
+      order:-1;
+    }
+
+    @media (min-width: 1200px) { 
+      margin-right: 40px;  
+
+    }
+
 }
 
 

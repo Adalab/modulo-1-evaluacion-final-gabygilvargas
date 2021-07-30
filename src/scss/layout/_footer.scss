@@ -10,7 +10,7 @@
   text-align: center;
   padding-top: 60px;
   padding-bottom: 45px;
-  
+  line-height: 2;
   
   
 }
@@ -19,6 +19,7 @@
   border: solid 2px green;
   text-transform: uppercase;
   font-size: 16px;
+  padding-bottom: 30px;
 }
 
 .footerlink__navegacion{ /*NAVEGACION*/
@@ -49,6 +50,7 @@
 .footerredes_container{ /*contenedor redes*/
   border: solid 2px black;
   text-transform: uppercase;
+  padding-bottom: 30px;
 }
 
 .footerredes__container--lista { /*listado  redes*/

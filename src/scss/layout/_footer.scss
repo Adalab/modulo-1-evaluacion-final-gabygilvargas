@@ -1,9 +1,71 @@
-/*.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+
+.footer {
+  border: solid 2px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #304268;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 45px;
+  
+  
+  
 }
-*/
+
+.footerlink{ /* CONTENEDOR LINK *****/
+  border: solid 2px green;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.footerlink__navegacion{ /*NAVEGACION*/
+  border: solid 2px black;
+ 
+}
+
+.footerlinks_navegacion--lista { /*LISTADO NAVEGACION*/
+  list-style: none;
+  
+  
+  
+}
+
+.footerlinks_navegacion--item {
+  list-style: none; /*CADA ENLACE NAVEGACION*/
+  color: white;
+  margin-bottom: 10px;
+}
+
+/***********************************redes sociales ****/
+.footerredes { 
+  border: solid 2px yellow;
+  font-size: 16px;
+}
+
+
+.footerredes_container{ /*contenedor redes*/
+  border: solid 2px black;
+  text-transform: uppercase;
+}
+
+.footerredes__container--lista { /*listado  redes*/
+  list-style: none;
+  
+
+}
+
+.footerredes__container--item { /*cada enlace redes*/
+  color: white;
+
+
+}
+
+.footer__copy {
+  border: solid 2px orange;
+  text-align: center;
+}
+
+

@@ -1,6 +1,6 @@
 
 .footer {
-  border: solid 2px red;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,20 +26,17 @@
       flex-direction: row;     
       text-align: start;
       padding-top: 45px;
-      justify-content: center;
+      justify-content: space-evenly;
+      padding-left: 200px;
+      padding-right: 200px;
 
-      
-
-      
-      
-      
       
     }
   
 }
 
 .footerlink{ /* CONTENEDOR LINK *****/
-  border: solid 2px green;
+  
   text-transform: uppercase;
   font-size: 16px;
   padding-bottom: 30px;
@@ -52,15 +49,13 @@
 }
 
 .footerlink__navegacion{ /*NAVEGACION*/
-  border: solid 2px black;
+  
  
 }
 
 .footerlinks_navegacion--lista { /*LISTADO NAVEGACION*/
   list-style: none;
-  
-  
-  
+   
 }
 
 .footerlinks_navegacion--item {
@@ -71,7 +66,7 @@
 
 /***********************************redes sociales ****/
 .footerredes { 
-  border: solid 2px yellow;
+  
   font-size: 16px;
     @media (min-width: 1200px) { 
       margin-left: 50px;  
@@ -80,7 +75,7 @@
 }
 
 .footerredes_container{ /*contenedor redes*/
-  border: solid 2px black;
+  
   text-transform: uppercase;
   padding-bottom: 30px;
 }
@@ -96,7 +91,7 @@
 }
 
 .footer__copy {
-  border: solid 2px orange;
+  
   text-align: center;
    
     @media (min-width: 768px) {
